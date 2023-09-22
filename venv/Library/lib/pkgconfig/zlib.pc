@@ -1,0 +1,13 @@
+prefix=F:/Data Science/ML Projects/venv/Library
+exec_prefix=F:/Data Science/ML Projects/venv/Library
+libdir=F:/Data Science/ML Projects/venv/Library/lib
+sharedlibdir=F:/Data Science/ML Projects/venv/Library/lib
+includedir=F:/Data Science/ML Projects/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
